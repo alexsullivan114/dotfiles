@@ -1,0 +1,9 @@
+path+=('$home/code/flutter/bin')
+path+=('$home/Library/Android/sdk/platform-tools')
+
+export PATH
+
+bindkey -v
+bindkey jj vi-cmd-mode
+
+source '~/code/geneva/talk-android/projectAliases.sh'

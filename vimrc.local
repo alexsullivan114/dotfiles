@@ -1,0 +1,11 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'davidhalter/jedi-vim'
+
+call plug#end()
+
+imap jj <Esc>
+
+:set number relativenumber
+:set nu rnu
+set clipboard=unnamed
